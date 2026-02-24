@@ -13,7 +13,7 @@ public class MathUtility {
             throw new IllegalArgumentException("n must be between 0 and 20");
         if(n == 0)
             return 1;
-        result = 10;
+        result = 1; //update source from 10 to 1 to see green 4 ever
         for(int i = 1; i <= n; i++)
             result = result * i;
         return result;
